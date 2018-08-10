@@ -25,7 +25,8 @@
                 android:hint="@string/phrase"
                 android:padding="10dp"
                 android:layout_margin="5dp"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                android:importantForAccessibility="no" />
 
             <EditText
                 android:id="@+id/pwrep"
@@ -34,7 +35,8 @@
                 android:hint="@string/phrase_rep"
                 android:padding="10dp"
                 android:layout_margin="5dp"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                android:importantForAccessibility="no" />
 
 
     <LinearLayout
